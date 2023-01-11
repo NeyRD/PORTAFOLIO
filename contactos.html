@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="portfolio-6381678-5331171.png">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACTOS</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="nav">
+            <div class="subnav">
+                <ul>
+                    <li><a href="index.html">INICIO <i class="fa-solid fa-terminal"></i></a></li>
+                    <li><a href="inicio.html">SOBRE MI <i class="fa-solid fa-code"></i></a></li>
+                    <li><a href="contactos.html">CONTACTOS <i class="fa-solid fa-code"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="menu-1">
+            <i class="fa-solid fa-bars" id="icono_menu"></i>
+        </div>
+    </header>
+
+    <div class="con" >
+        <h2>CONTACTO</h2>
+    </div>
+           
+        <div class="formulario">
+              <form action="https://formsubmit.co/angel_matos21@hotmail.com" method="post" >
+                <label for="fname">Nombre:</label><br>
+                <input type="text" id="fname" name="firstname" placeholder="Escriba su Nombre.." required ><br><br>
+            
+                <label for="lname">Email:</label><br>
+                <input type="text" id="lname" name="lastname" placeholder="Correo Electronico.." required ><br><br>
+            
+                <label for="country">Pais o Ciudad:</label><br>
+                <select id="country" name="country">
+                  <option value="australia">Rep. Dominicana</option>
+                  <option value="canada">Canada</option>
+                  <option value="usa">USA</option>
+                  <option value="australia">Australia</option>
+                  <option value="canada">Canada</option>
+                  <option value="usa">USA</option>
+                  <option value="canada">España</option>
+                  <option value="usa">Francia</option>
+                  <option value="canada">Haiti</option>
+                  <option value="usa">Venezuela</option>
+                </select>
+                <br><br>
+                <label for="subject">Mensaje</label><br>
+                <textarea id="subject" name="subject" placeholder="Dejame tu Mensaje" required style="height: 200px;" ></textarea>
+                <input type="submit" value="ENTRAR">
+              </form>
+              
+       
+        </div>
+
+        
+        
+        <script>
+            document.getElementById("icono_menu").addEventListener("click", menu_menu);
+            function menu_menu(){
+                document.querySelector(".nav").classList.toggle("menu_menu")
+            }
+        </script>
+
+        
+
+        
+</body>
+</html>
