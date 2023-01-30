@@ -1491,7 +1491,7 @@ border: 1px solid #1aee72;
 
 @media(max-width:1024px){
     .cuer .cuerpo{
-     margin-top: 700px;   
+     margin-top: 1400px;   
     }
 }
 
@@ -1955,6 +1955,18 @@ height:200px;
 @keyframes work-barra{
     100%{
         width: 90%;
+    }
+}
+
+
+#sql{
+    animation:sql-barra 2s forwards;
+}   
+
+
+@keyframes sql-barra{
+    100%{
+        width:85%;
     }
 }
 
@@ -2433,13 +2445,23 @@ border: 1px solid #1aee72;
 
 @media(width >= 1600px){
     .cuer .cuerpo {
-        margin-top: 300px;
+        margin-top: 400px;
+    }.contenedor-box a{
+        text-decoration: none;
     }
-    }
+}
+
+@media(width >= 1600px){
+    .cuer .cuerpo {
+        margin-top: 250px;
+}
+}
 
     @media(width >= 1920px){
         .cuer .cuerpo {
-            margin-top: -50px;
+            margin-top: -100px;
+        }.icon .linea{
+            opacity: 0;
         }
     }
     @media (width = 1440px){
